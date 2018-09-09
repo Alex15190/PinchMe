@@ -11,10 +11,10 @@
 		85F5281121450CF40045262B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F5281021450CF40045262B /* ViewController.m */; };
 		85F5281421450CF40045262B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85F5281221450CF40045262B /* Main.storyboard */; };
 		85F5281621450CFC0045262B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85F5281521450CFC0045262B /* Assets.xcassets */; };
-		85F5281921450CFC0045262B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85F5281721450CFC0045262B /* LaunchScreen.storyboard */; };
 		85F5281C21450CFC0045262B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F5281B21450CFC0045262B /* main.m */; };
 		85F5282621450CFD0045262B /* PinchMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F5282521450CFD0045262B /* PinchMeTests.m */; };
 		85F5283121450CFD0045262B /* PinchMeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F5283021450CFD0045262B /* PinchMeUITests.m */; };
+		85F5283F21450D750045262B /* yosemite-meadows.png in Resources */ = {isa = PBXBuildFile; fileRef = 85F5283E21450D740045262B /* yosemite-meadows.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +42,6 @@
 		85F5281021450CF40045262B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		85F5281321450CF40045262B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85F5281521450CFC0045262B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		85F5281821450CFC0045262B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85F5281A21450CFC0045262B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85F5281B21450CFC0045262B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85F5282121450CFD0045262B /* PinchMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinchMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +50,7 @@
 		85F5282C21450CFD0045262B /* PinchMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinchMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F5283021450CFD0045262B /* PinchMeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchMeUITests.m; sourceTree = "<group>"; };
 		85F5283221450CFD0045262B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85F5283E21450D740045262B /* yosemite-meadows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yosemite-meadows.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +106,8 @@
 				85F5280F21450CF40045262B /* ViewController.h */,
 				85F5281021450CF40045262B /* ViewController.m */,
 				85F5281221450CF40045262B /* Main.storyboard */,
+				85F5283E21450D740045262B /* yosemite-meadows.png */,
 				85F5281521450CFC0045262B /* Assets.xcassets */,
-				85F5281721450CFC0045262B /* LaunchScreen.storyboard */,
 				85F5281A21450CFC0045262B /* Info.plist */,
 				85F5281B21450CFC0045262B /* main.m */,
 			);
@@ -235,9 +235,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85F5281921450CFC0045262B /* LaunchScreen.storyboard in Resources */,
 				85F5281621450CFC0045262B /* Assets.xcassets in Resources */,
 				85F5281421450CF40045262B /* Main.storyboard in Resources */,
+				85F5283F21450D750045262B /* yosemite-meadows.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,14 +306,6 @@
 				85F5281321450CF40045262B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		85F5281721450CFC0045262B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				85F5281821450CFC0045262B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
